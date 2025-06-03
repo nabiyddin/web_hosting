@@ -1,0 +1,33 @@
+.header {
+  padding: 52px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 58px;
+}
+
+.nav-menu a {
+  color: #ffffffcc;
+  transition: color 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  color: #ccff8b;
+}
+
+.mobile-menu {
+  display: none;
+}

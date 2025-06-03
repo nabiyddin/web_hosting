@@ -1,0 +1,33 @@
+.dashboard-section {
+  padding: 71px 72px 0;
+}
+
+.dashboard-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.dashboard-title {
+  width: 30%;
+  color: #f6f6f6;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.dashboard-description {
+  width: 56%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.dashboard-image {
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+}

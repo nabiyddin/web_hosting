@@ -1,0 +1,105 @@
+.hosting-platform {
+  padding: 131px 134px 101px 134px;
+}
+
+.platform-container {
+  text-align: center;
+}
+
+.platform-texts h1 {
+  width: 45%;
+  color: #f6f6f6;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 100%;
+  margin: 0 auto 33px;
+}
+
+.platform-texts p {
+  margin: 0 auto 42px;
+  width: 65%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.platform-tabs {
+  margin: 0 auto;
+  display: flex;
+  gap: 65px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 7px;
+  width: 50%;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  color: #dcdcdc;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.tab-button:hover {
+  color: white;
+}
+
+.tab-button.active {
+  color: #ccff8b;
+}
+
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccff8b;
+}
+
+.platform-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: 79px;
+}
+
+.platform-image {
+  width: 30%;
+}
+
+.block-storage-content {
+  width: 90%;
+  text-align: start;
+}
+
+.block-storage-content h2 {
+  color: #f6f6f6;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.block-storage-content p {
+  color: #ffffff;
+  margin: 31px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.platform-button {
+  padding: 15px 23px;
+  font-size: 21px;
+  transition: background-color 0.3s ease;
+}

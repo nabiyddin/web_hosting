@@ -1,0 +1,184 @@
+.hosting-plans {
+  padding: 41px 56px;
+  background-color: #ffffff;
+}
+
+.plans-texts {
+  text-align: center;
+}
+
+.plans-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.plans-title {
+  width: 45%;
+  margin: 0 auto 24px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #050505;
+  line-height: 100%;
+}
+
+.plans-subtitle {
+  margin-bottom: 42px;
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Billing Toggle */
+.billing-toggle {
+  display: inline-flex;
+  background-color: #f4f4f4;
+  margin-bottom: 88px;
+}
+
+.toggle-btn {
+  padding: 15px 29px;
+  color: #000000cc;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 100%;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background-color: #ccff8b;
+  color: #000000cc;
+}
+
+/* Plans Grid */
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 61px;
+}
+
+/* Plan Card */
+.plan-card {
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.4s ease;
+  box-shadow: 13px 14px 25px 0px #0000000f;
+}
+
+.plan-card:hover {
+  transform: translateY(-25px);
+}
+
+.popular-badge {
+  width: 100%;
+  position: absolute;
+  top: -25px;
+  left: 173px;
+  transform: translateX(-50%);
+  background-color: #181818;
+  color: #ffffff;
+  padding: 5px 0;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.plan-icon {
+  font-size: 52px;
+  margin-bottom: 19px;
+}
+
+.plan-name {
+  margin-bottom: 9px;
+  color: #070707;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.plan-subtitle {
+  margin-bottom: 19px;
+  color: #070707;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.plan-price {
+  margin-bottom: 32px;
+  color: #070707;
+  font-family: "Inter", sans-serif;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.amount {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.period {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* Features List */
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 19px 0;
+}
+
+.plan-features li {
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  color: #070707;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.check-icon {
+  margin-right: 18px;
+}
+
+.trial-btn {
+  width: 100%;
+  background-color: #ccff8b;
+  color: #070707;
+  border: none;
+  padding: 9px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.trial-btn:hover {
+  background-color: #73b82e;
+}
+
+.no-card {
+  color: #070707;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 14px;
+}
