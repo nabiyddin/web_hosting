@@ -66,3 +66,102 @@
   line-height: 32px;
   width: 105%;
 }
+
+/* Responsive styles */
+@media (max-width: 1400px) {
+  .features {
+    padding: 45px 100px;
+  }
+
+  .features-title {
+    width: 50%;
+    font-size: 36px;
+  }
+
+  .features-description {
+    width: 70%;
+    font-size: 18px;
+  }
+
+  .feature-card {
+    padding: 18px 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .features {
+    padding: 40px 80px;
+  }
+
+  .features-title {
+    width: 60%;
+    font-size: 32px;
+  }
+
+  .features-description {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  .features-cards {
+    gap: 25px;
+  }
+
+  .feature-card {
+    width: 45%;
+    padding: 16px 25px;
+  }
+
+  .feature-card h3 {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .features {
+    padding: 46px 21px;
+  }
+
+  .features-title {
+    width: 91%;
+    font-size: 24px;
+    margin: 0 auto 19px;
+  }
+
+  .features-description {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 27px;
+    line-height: 23px;
+  }
+
+  .features-cards {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .feature-card {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .feature-card p {
+    width: 100%;
+    line-height: 28px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .feature-card h3 {
+    font-size: 17px;
+    margin: 16px 0;
+  }
+
+  .feature-card p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

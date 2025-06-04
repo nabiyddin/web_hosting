@@ -28,6 +28,129 @@
 
 .dashboard-image {
   margin-top: 50px;
+}
+
+.dashboard-image img {
   display: block;
   width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 1400px) {
+  .dashboard-section {
+    padding: 60px 60px 0;
+  }
+
+  .dashboard-title {
+    font-size: 28px;
+    width: 35%;
+  }
+
+  .dashboard-description {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .dashboard-image {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .dashboard-section {
+    padding: 50px 50px 0;
+  }
+
+  .dashboard-title {
+    font-size: 26px;
+    width: 38%;
+  }
+
+  .dashboard-description {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .dashboard-image {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .dashboard-section {
+    padding: 45px 40px 0;
+  }
+
+  .dashboard-title {
+    font-size: 24px;
+    width: 40%;
+  }
+
+  .dashboard-description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 900px) {
+  .dashboard-text {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .dashboard-title {
+    width: 100%;
+    font-size: 26px;
+  }
+
+  .dashboard-description {
+    width: 100%;
+  }
+
+  .dashboard-image {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .dashboard-section {
+    padding: 35px 25px 0;
+  }
+
+  .dashboard-title {
+    font-size: 24px;
+  }
+
+  .dashboard-description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .dashboard-image {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dashboard-section {
+    padding: 30px 20px 0;
+  }
+
+  .dashboard-text {
+    gap: 15px;
+  }
+
+  .dashboard-title {
+    font-size: 22px;
+  }
+
+  .dashboard-description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .dashboard-image {
+    margin-top: 25px;
+  }
 }

@@ -44,31 +44,16 @@
   height: 32px;
   border-radius: 50%;
   transition: background-color 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-link:hover {
   background-color: #ccff8b;
 }
 
-/* Responsive Design */
-@media (max-width: 992px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 24px;
-    text-align: center;
-  }
-
-  .footer-nav .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .social-links {
-    justify-content: center;
-  }
-}
-
+/* Animations */
 @keyframes socialHover {
   0% {
     transform: translateY(0);
@@ -85,9 +70,128 @@
   animation: socialHover 0.3s ease;
 }
 
-/* Focus States for Accessibility */
+/* Focus States */
 .nav-link:focus,
 .social-link:focus {
   outline: 2px solid #82ce34;
   outline-offset: 2px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .footer {
+    padding: 0 45px 20px;
+  }
+
+  .footer-nav .nav-links {
+    gap: 25px;
+  }
+
+  .social-links {
+    gap: 14px;
+  }
+
+  .social-link {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    padding: 0 35px 18px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .footer-nav .nav-links {
+    gap: 20px;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    border-bottom: none;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-nav .nav-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    padding: 0 25px 15px;
+    margin-bottom: 35px;
+  }
+
+  .footer-container {
+    gap: 20px;
+  }
+
+  .brand-logo img {
+    width: 140px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .social-link {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 0 20px 12px;
+    margin-bottom: 30px;
+  }
+
+  .footer-container {
+    gap: 18px;
+  }
+
+  .footer-nav .nav-links {
+    flex-direction: flex;
+    gap: 15px;
+  }
+
+  .brand-logo img {
+    width: 120px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-link {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* Disable hover animation on mobile */
+  .social-link:hover {
+    animation: none;
+  }
 }

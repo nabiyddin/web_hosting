@@ -48,3 +48,152 @@
     height: var(--final-height);
   }
 }
+
+/* Responsive styles */
+@media (max-width: 1400px) {
+  .hosting-promo {
+    padding: 90px 60px 0;
+  }
+
+  .promo-title {
+    font-size: 36px;
+    width: 70%;
+  }
+
+  .promo-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 25px 0;
+    width: 100%;
+  }
+
+  .promo-button {
+    padding: 14px 20px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hosting-promo {
+    padding: 80px 50px 0;
+  }
+
+  .promo-title {
+    font-size: 32px;
+    width: 75%;
+  }
+
+  .promo-description {
+    font-size: 17px;
+    line-height: 28px;
+    margin: 22px 0;
+  }
+
+  .promo-button {
+    padding: 12px 18px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hosting-promo {
+    padding: 70px 40px 0;
+  }
+
+  .promo-title {
+    font-size: 28px;
+    width: 80%;
+  }
+
+  .promo-description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .promo-button {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-promo {
+    padding: 60px 30px 0;
+  }
+
+  .promo-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .promo-image {
+    width: 70%;
+  }
+
+  .promo-image img {
+    width: 100%;
+  }
+
+  .promo-content {
+    text-align: center;
+  }
+
+  .promo-title {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .promo-description {
+    width: 100%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .hosting-promo {
+    padding: 50px 25px 0;
+  }
+
+  .promo-image {
+    width: 85%;
+  }
+
+  .promo-title {
+    font-size: 26px;
+  }
+
+  .promo-description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .promo-button {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hosting-promo {
+    padding: 40px 20px 0;
+  }
+
+  .promo-image {
+    width: 100%;
+  }
+
+  .promo-title {
+    font-size: 24px;
+  }
+
+  .promo-description {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 15px auto;
+  }
+
+  .promo-button {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}

@@ -24,7 +24,7 @@ const Header = () => {
         </nav>
       </div>
 
-      <Button>Get started</Button>
+      <Button className="main-button">Get started</Button>
 
       <button
         className="mobile-menu"
